@@ -1,0 +1,56 @@
+.Price {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0;
+    width: 217px;
+    padding: 25px;
+    background-color: #1c374a;
+    color: #9b9b9b
+}
+
+.Price>span:first-child {
+    text-decoration: line-through;
+}
+
+.Price-Count {
+    color: #fff;
+    font-size: 52px;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.Price-Count span {
+    font-size: 24px;
+    vertical-align: super;
+}
+
+@media screen and (max-width: 1260px) {
+    .Price {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 1140px) {
+    .Price {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Price {
+        width: 105px;
+        height: 85px;
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+
+    .Price-Count {
+        font-size: 28px;
+        line-height: 1.2;
+    }
+
+    .Price-Count span {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,31 @@
+.Gallery {
+    display: flex;
+}
+
+.Gallery-Big {
+    width: 256px;
+}
+
+.Gallery-Small {
+    width: 148px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 870px) {
+    .Gallery-Small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .Gallery-Small {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .Gallery-Small {
+        display: none;
+    }
+}

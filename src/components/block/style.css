@@ -1,0 +1,12 @@
+.Block {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.Block h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}

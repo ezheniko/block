@@ -1,0 +1,28 @@
+.Numbers>span {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 25px;
+}
+
+.Numbers>span:last-child {
+    margin-right: 0;
+}
+
+.Numbers-Reviews {
+    padding-top: 2px;
+    font-weight: 700;
+}
+
+.Numbers-Duration {
+    padding-top: 2px;
+    padding-left: 25px;
+    color: #c5c5c6;
+    font-weight: 700;
+    background: url('/images/duration.svg') center left no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+    .Numbers {
+        padding-right: 90px;
+    }
+}

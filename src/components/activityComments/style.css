@@ -1,0 +1,13 @@
+.Activity-Comments {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Activity-Comment {
+    padding-left: 35px;
+    margin-bottom: 10px;
+    background: url('/images/user.png') top left no-repeat;
+    overflow: hidden;
+    max-height: 1.5em;
+}

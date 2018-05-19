@@ -1,0 +1,37 @@
+.Info-Title {
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.Info-Description {
+    margin-bottom: 25px;
+    padding-right: 40px;
+    overflow: hidden;
+    max-height: 4.5em;
+}
+
+.Numbers {
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .Info-Title {
+        padding-right: 90px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Info-Title {
+        padding-right: 0;
+    }
+    .Numbers {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .Gallery .Info {
+        flex-basis: unset;
+    }
+}

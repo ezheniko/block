@@ -1,0 +1,29 @@
+.Features {
+    flex-grow: 1;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    color: #737373;
+    background-color: #e7e7e7;
+}
+
+.Feature-Item {
+    padding-left: 55px;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    background-size: 30px;
+    background-position: center left 10px;
+}
+
+@media screen and (max-width: 992px) {
+    .Features {
+        width: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Features {
+        display: none;
+    }
+}
